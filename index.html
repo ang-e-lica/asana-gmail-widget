@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Invia Email con Gmail</title>
+  <style>
+    body { font-family: sans-serif; padding: 16px; }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    button {
+      background: #4285F4;
+      color: white;
+      border: none;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    button:hover { background: #3367D6; }
+  </style>
+</head>
+<body>
+
+<h2>Invia Email con Gmail</h2>
+
+<label>Destinatario</label>
+<input type="email" id="to" placeholder="es. esempio@gmail.com" />
+
+<label>Oggetto</label>
+<input type="text" id="subject" placeholder="Oggetto" />
+
+<label>Messaggio</label>
+<textarea id="body" rows="6" placeholder="Scrivi il tuo messaggio..."></textarea>
+
+<button id="send">Invia Email</button>
+
+<p
